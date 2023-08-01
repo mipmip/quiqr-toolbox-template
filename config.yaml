@@ -1,0 +1,33 @@
+baseUrl: /
+languageCode: en
+title: Toolbox Template
+theme: company-toolbox
+disableKinds:
+  - taxonomyTerm
+  - taxonomy
+  - sitemap
+  - RSS
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+outputs:
+  home:
+    - html
+  section:
+    - json
+  page:
+    - json
+    - html
+logo: logo-waardenburg.png
+params:
+  logo: logo-nav.svg
+  resources: []
+  home_bg_image: taylor-van-riper-yQorCngxzwI-unsplash.jpg
+  logo_width: 173
+  rewriteRules: []
+  use_font_icons: true
+  icon_color: '#fe5758'
+use_font_icons: true
+search:
+  other: Search
